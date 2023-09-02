@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> caculator</title>
+        <script>
+            function fun(){
+                var m1=parseInt(document.getElementById("math").value);
+                var m2=parseInt(document.getElementById("eng").value);
+                var m3=parseInt(document.getElementById("hin").value);
+
+                let avg=parseInt((m1+m2+m3)/3);
+                if (avg>60)
+                {
+                let c="a grade";
+                document.getElementById("res").value=c;
+                }
+                else if(avg==50)
+                {
+                let s="b grade";
+                document.getElementById("res").value=s;
+                }
+                else if(avg<50)
+                {
+                    let d="c grade";
+                    document.getElementById("res").value=d;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <lable> maths marks</lable>
+        <input type="text"  id="math"><br>
+        <p></p>
+        <label> english</label>
+        <input typr="text"   id="eng"><br> <p></p>
+        <lable>
+            hindi
+        </lable>
+        <input type="text" id="hin"><br> <p></p>
+
+        <lable> result</lable>
+        <input type="text" id="res"> <br> <p></p>
+        <button type=" button" onclick="fun()"> click</button>
+    </body>
+</html>
