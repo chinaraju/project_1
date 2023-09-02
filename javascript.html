@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> java Script</title>
+    </head>
+    <body>
+<script>
+
+      /*let array = [10,20,30,40,50];
+    array.forEach(function(element,index){
+        document.write(element,".....",index,"<br>");
+     }) 
+
+
+
+        let array2 = [`react`,`angular`, `vuejs`,`china`];
+        array2.forEach(function(element,index){
+            document.write(element,"<br>");
+        })
+
+        let array3 =[100,200,300,400]
+        for(let x of array3){
+            document.write(x);
+        }
+
+        let array4 =["react","node js","vuejs",100,200];
+        for(let x of array4){
+            document.write(x);
+        }
+
+        let array = [10,20,50,40];
+        for (let i=0;i<array.length;i++){
+            document.write(array[i],"<br>");
+        }
+
+
+            let obj1 ={
+                key1:`reactjs`,
+                key2:`nodejs`,
+                key3:`visual`,
+                key4:`angular`,
+
+            }
+            document.write(obj1.key1,"...",obj1.key2,obj1.key3,obj1.key4);
+
+            let obj ={
+                key1:{
+                    frontend:"anguler",
+                    backend:"node js",
+                    database:"sql server"
+                }
+            }
+            let x =  obj.key1; 
+            let y =x.frontend;
+            let z = x.backend;
+            let d = x.database;
+            document.write(y,"...",z,"...",d,"<br>");
+
+            let obj ={
+                key1:"react js",
+                key2:{
+                    sub:"nodejs",
+                    sub1:"mangodb"
+                },
+                key3:{
+                    sub:"china raju",
+                    sub1:"hello"
+
+                }
+
+            }
+            
+            let x = obj.key1;
+            let inner = obj.key2;
+            let sub =inner.sub;
+            let sub1 = inner.sub1;
+            let inner_two =obj.key3;
+            let subt = inner_two.sub;
+            let subt2 = inner_two.sub1;
+            document.write(
+                `<table border="1px"
+                        align = "center"
+                        cellspacing ="10px"
+                        cellpadding ="10px">
+                   <tr>
+                    <th> front end </th>
+                    <th> backend </th>
+                    <th> database </th>
+                    <th> name </th>
+                    <th> flow </th>
+                    </tr> 
+                    <tr>
+                        <td> ${x} </td>
+                        <td> ${sub} </td>
+                        <td> ${sub1} </td>
+                        <td> ${subt} </td>
+                        <td> ${subt2}</td>
+                        </tr>
+                        </table>`);
+
+                        let obj5 = {
+                            key1:function(){
+                                return `wlecome to annonymous function`;
+                            }
+                        }
+
+                        let x = obj5.key1;
+                        let res =x();
+                        document.write(res);
+
+                        let obj = {
+                            key:function(){
+                                return  `hello`;
+                            },
+                            key1:function fun(){
+                                return`how are you`;
+                            }
+
+                        }
+                        let x= obj.key;
+                        let res = x();
+                        let y = obj.key1;
+                        let res1 = y ();
+                        document.write(res,"  ",res1);*/
+
+
+                       /* let obj =[{p_Id:111,p_Name:"one",P_Cost:32000},
+                                    {p_Id:222,p_Name:"two",p_Cost:15000},
+
+                                    {p_Id:4444,p_Name:"four",p_Cost:2000}];
+
+                                    document.write(
+                                        `<table border="1px"
+                                                cellpadding="10px"
+                                                cellspacing="10px">
+                                            <tr>
+                                                <th> p_id </th>
+                                                <th> p_name </th>
+                                                <th> p_cost </th>
+                                                </tr>
+
+
+                                    `);
+                                    obj.forEach(function(element,index){
+                                            document.write(`
+                                            <tr>
+                                                <td> ${element.p_Id} </td>
+                                                <td> ${element.p_Name }</td>
+                                                <td> ${element.p_Cost}</td>
+                                                </tr>
+                                                `);
+
+                                    });
+                                    document.write(`</table>`);*/
+
+                                    /*let obj={
+                                        oracle:{
+                                            sub:"react"
+                                        },
+                                        mysql:{
+                                            sub:"mysql"
+                                        }
+                                    }
+                                    let {oracle,mysql}=obj;
+                                    let {sub:v}=oracle;
+                                    let{sub}=mysql;
+                                    document.write(v," ",sub);*/
+
+
+                                   /* let obj ={
+                                        key1:{
+                                            v:"hello"
+                                        },
+                                        key2:{
+                                            v:"hello_two"
+                                        },
+                                        key3:{
+                                            v:"hello_three"
+                                        }
+                                    }
+                                    let {key1,key2,key3}=obj;
+                                    let {v:v1}=key1;
+                                    let {v:v2}=key2;
+                                    let {v:v3}=key3;
+                                    document.write(v1,v2,v3);*/
+
+
+                                  /*  let arr = [{pid:101,pname:"raju",psalary:2000},
+                                                {pid:102,pname:"china",psalary:18500},
+                                                {pid:103,pname:"chianraju",psalary:22000},
+                                                {pid:104,pname:"saragada",psalary:25000},
+                                                {pid:105,pname:"java",psalary:15000}];
+
+                                                document.write(`<table border=1px
+                                                                    cellpadding=10px
+                                                                    cellspacing=10px>
+                                                                    <tr>
+                                                                        <th> pid </td>
+                                                                            <th> pname </th>
+                                                                            <th>psalary </th>
+                                                                            </tr>`)
+
+                                                            arr.forEach((element,index)=>{
+                                                                document.write(`
+                                                                <tr>
+                                                                    <td>${element.pid} </td>
+                                                                    <td>${element.pname}</td>
+                                                                    <td>${element.psalary}</td>
+                                                                    </tr>`)
+                                                            })
+                                                            document.write(`</table>`);*/
+                                                                
+                                                           /* let obj ={
+                                                                key1:" ",
+                                                                key2:" ",
+                                                                key3:function(){
+                                                                    let x=()=>{
+                                                                        this.key1="hello";
+                                                                        this.key2="hi";
+                                                                    }
+                                                                    x();
+                                                                }
+                                                            }
+                                                            obj.key3();
+                                                                    let str =obj.key1;
+                                                                    let str1 =obj.key2;
+                                                                    document.write(str,str1);
+
+                                                                    this.sub ="react";
+                                                                    console.log(this);
+                                                                    console.log(this.sub);
+                                                                    console.log(window.sub);*/
+
+                                                                    let obj ={
+                                                                        key1:"react",
+                                                                        key2:function(){
+                                                                            return this.key1;
+                                                                        }
+                                                                    };
+                                                                    let str = obj.key2();
+                                                                    console.log(str);
+                                                                    console.log(this.str);
+                                                                    console.log(this.obj);
+
+
+
+                                                             
+                                                            
+
+
+
+
+
+
+
+
+
+
+</script>
+    </body>
+</html>
